@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/loader.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- ==== Style Switcher ==== -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled/>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled/>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled/>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled/>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled/>
+
+    <link rel="stylesheet" href="css/style-switcher.css">
+  </head>
+  <body>
+    <style>
+    #myVideo {
+      position: fixed;
+      right: 0;
+        left: 10;
+      bottom: 0;
+      opacity: 1;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    </style>
+
+    <!-- ===Main Container start=== -->
+    <div class="main-container">
+      <!-- ==== Aside Start ==== -->
+      <div class="aside"  id="sidebg">
+        
+        <div class="logo">
+          <a href="#"><span>D</span>igvijay</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#services"><i class="fa fa-list"></i> Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+          <li>
+            <a href="#MusicSection"><i class="fa-solid fa-music"></i>Music</a>
+          </li>
+          <li>
+            <a href="#GamesSection"><i class="fa-solid fa-gamepad"></i>Games</a>
+          </li>
+        </ul>
+      </div>
+      <!-- ==== Aside End ==== -->
+      <!-- ==== Main Content Start ==== -->
+      <div class="main-content" >
+        <!-- ==== Home Section Start ==== -->
+        <div class="home active section" id="home">
+          <video autoplay muted loop id="myVideo">
+            <source src="videos/color2.mp4" type="video/mp4">
+          </video>
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, My Name is <span class="name">Digvijay Shingare</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a <span class="typing">Web Developer</span>
+                </h3>
+                <p>
+                  I am a Web Developer. My expertise is creating Well Designed and Functional websites. I am a programmer too.
+                </p>
+                <a
+                  href="#about"
+                  class="btn "
+                  >Download CV</a
+                >
+              </div>
+              <div class="home-img padd-15">
+                <img src="images/img2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- ==== Home Section End ==== -->
+        <!-- ==== About Section Start ==== -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I'm Digvijay Shingare -<span>Web Developer</span></h3>
+                    <p>
+                      Hello Everyone, I am Digvijay Shingare. I am a Web Developer. I love developing and designing beautiful and generous websites.
+                      <br> I have excellent skills and experience in creating responsive and user friendly websites.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item">
+                        <p>Birthday: <span>29 Oct 2001</span></p>
+                      </div>
+                      <div class="info-item ">
+                        <p>Age: <span>20</span></p>
+                      </div>
+                      <div class="info-item ">
+                        <p>Website: <span>www.google.com</span></p>
+                      </div>
+                      <div class="info-item ">
+                        <p>Email: <span>dgshingare@gmail.com</span></p>
+                      </div>
+                      <div class="info-item ">
+                        <p>Degree: <span>CS</span></p>
+                      </div>
+                      <div class="info-item ">
+                        <p>Phone: <span> +91 8485006432</span></p>
+                      </div>
+                      <div class="info-item ">
+                        <p>City : <span>Pune</span></p>
+                      </div>
+                      <b></b>
+                      <div class="info-item ">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="#contact" data-section-index="1" class="btn hire-me">Hire me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 96%"></div>
+                          <div class="skill-percent">96%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 85%"></div>
+                          <div class="skill-percent">85%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>REACT-JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-percent">76%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>NODE-JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 52%"></div>
+                          <div class="skill-percent">52%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2016-2017
+                            </h3>
+                            <h4 class="timeline-title">
+                              10th(SSC) Education 
+                            </h4>
+                            <p class="timeline-text">
+                              I have completed my 10th education in "Abasaheb Kakade Vidyalaya Shevgaon".
+                              <br>
+                              Percentage: 98.20%
+                            </p>
+                          </div>
+
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2018-2019
+                            </h3>
+                            <h4 class="timeline-title">
+                              12th(HSC) Education
+                            </h4>
+                            <p class="timeline-text">
+                              I have pursued my 12th standard Education from "Deccan Education Society's Fergusson College Pune". 
+                            </p>
+                          </div>
+
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2020....
+                            </h3>
+                            <h4 class="timeline-title">
+                              B.E degree Education
+                            </h4>
+                            <p class="timeline-text">
+                              I am currently studying in "Pune Institute of Computer Technology, Pune" as a Computer engineering student.
+                              
+                            </p>
+                          </div>
+
+                          <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2013-2015
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Commodi repellendus delectus quasi, sunt
+                              odit deleniti neque a eos nulla cupiditate ducimus
+                              quaerat enim dolorem similique quae itaque
+                              placeat! Quidem quos magni laborum quo amet minima
+                              et impedit non nihil. Optio!
+                            </p>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2021...
+                            </h3>
+                            <h4 class="timeline-title">
+                              Web Developer
+                            </h4>
+                            <p class="timeline-text">
+                              Exploring the Web Development domain as a Frontend Developer as well as a Backend Developer.
+                            </p>
+                          </div>
+
+                          <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                            </h3>
+                            <h4 class="timeline-title">
+                              C++ programmer
+                            </h4>
+                            <p class="timeline-text">
+                              
+                            </p>
+                          </div> -->
+
+                          <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2013-2015
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Commodi repellendus delectus quasi, sunt
+                              odit deleniti neque a eos nulla cupiditate ducimus
+                              quaerat enim dolorem similique quae itaque
+                              placeat! Quidem quos magni laborum quo amet minima
+                              et impedit non nihil. Optio!
+                            </p>
+                          </div> -->
+
+                          <!-- <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2013-2015
+                            </h3>
+                            <h4 class="timeline-title">
+                              Master in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Commodi repellendus delectus quasi, sunt
+                              odit deleniti neque a eos nulla cupiditate ducimus
+                              quaerat enim dolorem similique quae itaque
+                              placeat! Quidem quos magni laborum quo amet minima
+                              et impedit non nihil. Optio!
+                            </p>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==== About Section End ==== -->
+        <!-- ==== Services Section Start ==== -->
+        <section class="service section" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Skills</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ===== Service Item Start ===== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <a><div class="icon" >
+                    <i class="fa fa-mobile-alt"></i>
+                  </div></a>
+                  <h4>Front-end developer</h4>
+                  <p>
+                    HTML, CSS, JavaScript<br>ReactJs, Bootstrap, TailwindCSS.<br>
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service Item End ===== -->
+              <!-- ===== Service Item Start ===== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-server"></i>
+                  </div> 
+                  <h4>Back-end developer</h4>
+                  <p>
+                    NodeJS,<br>ExpressJS.  
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service Item End ===== -->
+              <!-- ===== Service Item Start ===== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>C++</h4>
+                  <p>
+                     I also have good coding skills in C++ language.
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service Item End ===== -->
+              <!-- ===== Service Item Start ===== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-brands fa-java"></i>
+                  </div>
+                  <h4>Java</h4>
+                  <p>
+                    A little knowledge of Java and OOPS Concepts.
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service Item End ===== -->
+              <!-- ===== Service Item Start ===== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-database"></i>
+                  </div>
+                  <h4>SQL</h4>
+                  <p>
+                    Have knowledge of Relational Database Management System. 
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service Item End ===== -->
+              <!-- ===== Service Item Start ===== -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-database"></i>
+                  </div>
+                  <h4>MongoDB</h4>
+                  <p>
+                    I have an experience of using NoSQL languages in web applications.
+                  </p>
+                </div>
+              </div>
+              <!-- ===== Service Item End ===== -->
+            </div>
+          </div>
+        </section>
+        <!-- ==== Services Section End ==== -->
+        <!-- ==== Portfolio Section Start ==== -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>My Recent Projects: </h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ==== Portfolio item start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark" >
+                  <div class="portfolio-img">
+                    <img src="images/notes.jfif" height="240px" width="300px" alt="">
+                    <span><a href="https://d-whitedevil29.github.io/Notes-app/">Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio item End ==== -->
+              <!-- ==== Portfolio item start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark" >
+                  <div class="portfolio-img">
+                    <img src="images/comesoon.jpg" alt="">
+                    <span><a>Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio item End ==== -->
+              <!-- ==== Portfolio item start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark" >
+                  <div class="portfolio-img">
+                    <img src="images/comesoon.jpg" alt="">
+                    <span><a>Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio item End ==== -->
+              <!-- ==== Portfolio item start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark" >
+                  <div class="portfolio-img">
+                    <img src="images/comesoon.jpg" alt="">
+                    <span><a>Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio item End ==== -->
+              <!-- ==== Portfolio item start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark" >
+                  <div class="portfolio-img">
+                    <img src="images/comesoon.jpg" alt="">
+                    <span><a>Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio item End ==== -->
+              <!-- ==== Portfolio item start ==== -->
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark" >
+                  <div class="portfolio-img">
+                    <img src="images/comesoon.jpg" alt="">
+                    <span><a>Learn more</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Portfolio item End ==== -->
+            </div>
+          </div>
+        </section>
+        <!-- ==== Portfolio Section End ==== -->
+        <!-- ==== Contact Section start ==== -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Do you have any Questions ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!-- ==== Contact info item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Me on</h4>
+                <p>8485006432</p>
+              </div>
+              <!-- ==== Contact info item End ==== -->
+              <!-- ==== Contact info item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Address</h4>
+                <p>Pune</p>
+              </div>
+              <!-- ==== Contact info item End ==== -->
+              <!-- ==== Contact info item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>digvijaygshingare29@gmail.com</p>
+              </div>
+              <!-- ==== Contact info item End ==== -->
+              <!-- ==== Contact info item start ==== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>https://d-whitedevil29.github.io/Notes-app/</p>
+              </div>
+              <!-- ==== Contact info item End ==== -->
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+            <!-- ==== Contact Form ==== -->
+
+            <form action="https://formspree.io/f/mvolewll" method="POST" >
+
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="txt1" placeholder="Name" name="name" required>
+                    </div>
+                  </div>
+
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="txt2" placeholder="Email" name="email" required>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="txt3" placeholder="Subject" name="subject" required>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea type="text" name="message" id="txt4" class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <button type="submit" class="btn">Send Message</button>
+                      <button type="" class="btn" onclick = "clearData()">Clear Form</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        </section>
+         <!-- ==== Contact Section End ==== -->
+
+        <!-- Music Section  starts-->
+          <section class="music section" id="MusicSection">
+            <div class="container">
+              <div class="row">
+                  <div class="section-title padd-15">
+                          <h2>Chill Vibes</h2>
+                  </div>
+             </div>
+          <div >
+          <h4 class="h4Song padd-15">Click here for Chill Vibes</h4>
+          <button class="btn" style="margin-left: 20px; cursor: pointer;" onclick="removeHidden()"><i class="fa-solid fa-play"></i></button>
+          <button class="btn" style="margin-left: 20px; cursor: pointer;" onclick="addHidden(1)"><i class="fa-solid fa-eject"></i></button>
+          <div class="song padd-15 hidden" id="music">
+            
+            <div class="song-box" >
+              <!-- <h4>Closer song</h4> -->
+              <img class="songimg" src="./images/closerimg.jpg" alt=""/>
+              <audio controls style="width: 250px; height:30px; padding-right: 30px;"><source src="songs/Closer.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="song-box">
+              <!-- <h4>On and On song</h4> -->
+              <img class="songimg" src="./images/onandonimg.jpg" alt=""/>
+              <audio controls style="width: 250px; height:30px; padding-right: 30px;  "><source src="songs/On and On.mp3"  type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="song-box" >
+              <!-- <h4>Memories song</h4> -->
+              <img class="songimg" src="./images/memoriesimg.jpg" alt=""/>
+              <audio controls style="width: 250px; height:30px; padding-right: 30px;"><source src="songs/Memories.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="song-box" >
+              <!-- <h4>In the Mood song</h4> -->
+              <img class="songimg" src="./images/mood.jpg" alt=""/>
+              <audio controls style="width: 250px; height:30px; padding-right: 30px;"><source src="songs/24kGoldn-Mood.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="song-box" >
+              <!-- <h4>Spirits song</h4> -->
+              <img class="songimg" src="./images/spiritsimg.jpg" alt=""/>
+              <audio controls style="width: 250px; height:30px; padding-right:30px;"><source src="songs/Spirits.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+
+            <div class="song-box " >
+              <!-- <h4>Night Changes song</h4> -->
+              <img class="songimg" src="./images/nightchanges.jfif" alt=""/>
+              <audio controls style="width: 250px; height:30px; padding-right: 30px;"><source src="songs/Night-Changes.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+
+            <!-- <h2 class="h4Song padd-15">Click here to open video section</h2>
+            <div >
+            <button class="btn" style="margin-left: 30px; margin-top: 20px;cursor: pointer;" onclick="removehide()"><i class="fa-solid fa-play"></i></button>
+            <button class="btn" style="margin-left: 30px; cursor: pointer;" onclick="hide()"><i class="fa-solid fa-eject"></i></button>
+            </div>
+            <div class="video hidden">
+              <div class="vid">
+            <iframe width="320" height="250" src="https://www.youtube.com/embed/BddP6PYo2gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> -->
+  
+  
+            <div>
+            </div>
+            </div>
+          </div>
+          </div>
+
+        </section>
+         <!-- Music Section  End-->
+         <!-- Games Section  starts-->
+        <section class="games section" id="GamesSection">
+          <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+               <h2>Play Games</h2>
+            </div>
+        </div>
+      
+        <div >
+                 <h4 class="h4Song padd-15">Click here to play games</h4>
+        </div>
+        <div class="game-platform">
+          <button class="btn" style="margin-left: 30px; margin-top: 20px;cursor: pointer;" onclick="removeHidden1()"><i class="fa-solid fa-play"></i>  Offline Games</button>
+          <button class="btn" style="margin-left: 30px; margin-top: 20px;cursor: pointer;" onclick="removeHidden2()"><i class="fa-solid fa-play"></i>  Online Games</button>
+          <div>
+            <h2 class="h4Song padd-15">Refresh the website if games are not loaded properly...</h2>
+          </div>
+          <div class="offgames hidden1">
+          <div class="game ">
+            <iframe
+              style="width: 100%; height: 550px; overflow: hidden;"
+              src="https://playpager.com/embed/chess/index.html"
+              scrolling="no">
+             </iframe>
+          </div>
+
+          <div class="game">
+            <iframe
+            style="width: 100%; height: 550px; overflow: hidden;"
+            src="https://playpager.com/embed/checkers/index.html"
+            scrolling="no">
+           </iframe>
+          </div>
+          
+          <button class="btn" style="margin-left: 30px; cursor: pointer;" onclick="addHidden(2)"><i class="fa-solid fa-eject"></i></button>
+        </div>
+
+        <div class="ongames">
+          <div class="game">
+            <iframe style="width: 100%; height: 550px; overflow: hidden;" src="https://www.addictinggames.com/embed/html5-games/23866" scrolling="no"></iframe>
+          </div>
+
+          <div class="game">
+            <iframe style="width: 100%; height: 550px; overflow: hidden;" src="https://www.addictinggames.com/embed/html5-games/25105" scrolling="no"></iframe>
+          </div>
+
+          <div class="game">
+           <iframe style="width: 100%; height: 550px; overflow: hidden;" src="https://www.addictinggames.com/embed/html5-games/24972" scrolling="no"></iframe>
+          </div>
+
+          <div class="game">
+           <iframe style="width: 100%; height: 550px; overflow: hidden;"
+           src="https://www.addictinggames.com/embed/html5-games/23966" scrolling="no"></iframe>
+          </div>
+
+          <div class="game">
+            <iframe style="width: 100%; height: 550px; overflow: hidden;" src="https://www.addictinggames.com/embed/html5-games/24898" scrolling="no"></iframe>
+          </div>
+          <button class="btn" style="margin-left: 30px; cursor: pointer;" onclick="addHidden(3)"><i class="fa-solid fa-eject"></i></button>
+        </div>
+        
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div >
+</section>
+      <!-- ==== Main Content End ==== -->
+    </div>
+    <!-- ===Main Container End=== -->
+    <!-- Style Switcher Start -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <!-- <i class="fas fa-cog fa-spin"></i> -->
+        <i class="fas fa fa-palette"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas "></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- Style Switcher End -->
+    <!-- === JS Files === -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+    
+    <!-- Loading Page Animation -->
+    <div class='spinner-wrapper'>
+      <div class="spinner">
+        <span id="load">Loading...</span>
+      </div>
+    </div>
+  
+  
+  <script>
+      let spinnerWrapper = document.querySelector('.spinner-wrapper');
+  
+      window.addEventListener('load', function () {
+          // spinnerWrapper.style.display = 'none';
+          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+      });
+  </script>
+  </body>
+</html>
