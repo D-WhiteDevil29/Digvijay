@@ -19,7 +19,7 @@
     --aside-bg: rgba(6, 5, 10, 0.86);
     --bg_color: white;
     --si-bg: white;
-    --hometext:  rgba(1, 0, 2, 0.943);
+    --hometext: rgba(1, 0, 2, 0.943);
     --simg-bg: black;
 
 }
@@ -38,13 +38,13 @@ body.dark {
     --aside-bg: rgba(5, 5, 9, 0.86);
     --simg-bg: white;
     --si-bg: black;
-    --hometext:  rgba(1, 0, 2, 0.943);
+    --hometext: rgba(1, 0, 2, 0.943);
 }
 
 body {
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Arvo',serif;
+    font-family: 'Arvo', serif;
 }
 
 * {
@@ -81,47 +81,39 @@ ul {
     transition: all 0.3s ease;
 }
 
-.section.back-section
-{
+.section.back-section {
     z-index: 1;
 }
 
-.section.active
-{
+.section.active {
     z-index: 2;
     opacity: 1;
-    animation: slideSection  1s ease;
+    animation: slideSection 1s ease;
 }
 
-@keyframes slideSection
-{
-    0%
-    {
-        transform: translateX(100%) ;
+@keyframes slideSection {
+    0% {
+        transform: translateX(100%);
     }
-    100%
-    {
+
+    100% {
         transform: translateX(0%);
     }
 }
 
-.hidden
-{
+.hidden {
     display: none !important;
 }
 
-.hidden1
-{
+.hidden1 {
     display: none !important;
 }
 
-.hidden2
-{
+.hidden2 {
     display: none !important;
 }
 
-.hidden3
-{
+.hidden3 {
     display: none !important;
 }
 
@@ -202,7 +194,7 @@ ul {
     transition: all 0.3s ease;
     margin-right: 10px;
     margin-bottom: 15px;
-    
+
 }
 
 .btn:hover {
@@ -305,8 +297,7 @@ ul {
     position: relative;
 }
 
-.aside .nav-toggler.open span
-{
+.aside .nav-toggler.open span {
     background-color: transparent;
 }
 
@@ -320,8 +311,7 @@ ul {
     left: 0;
 }
 
-.aside .nav-toggler.open span::before
-{
+.aside .nav-toggler.open span::before {
     transform: rotate(45deg);
     top: 0;
 }
@@ -336,8 +326,7 @@ ul {
     left: 0;
 }
 
-.aside .nav-toggler.open span::after
-{
+.aside .nav-toggler.open span::after {
     transform: rotate(-45deg);
     top: 0;
 }
@@ -432,10 +421,10 @@ h3.hello span {
     margin-bottom: 70px;
     font-size: 20px;
     opacity: 1;
-    font-family: 'Arvo',serif;
+    font-family: 'Arvo', serif;
     color: var(--hometext);
     font-weight: 700;
-     /* color: var(--text-black-900); */
+    /* color: var(--text-black-900); */
     /* color: var(--aside-bg); */
 }
 
@@ -448,7 +437,10 @@ h3.my-profession {
     width: 300px;
     height: 400px;
     /* border: 4px solid var(--skin-color); */
-    box-shadow: 0 0 20px var(--aside-bg);
+    box-shadow: 0 0 30px 8px var(--aside-bg);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
 }
 
 .home .home-img {
@@ -456,6 +448,7 @@ h3.my-profession {
     max-width: 40%;
     text-align: center;
     position: relative;
+
 }
 
 .home-img::after {
@@ -505,7 +498,7 @@ h3.my-profession {
 .about .about-content .about-text p {
     font-size: 16px;
     line-height: 25px;
-    font-family: 'Arvo',serif;
+    font-family: 'Arvo', serif;
     color: var(--text-black-700);
 }
 
@@ -523,7 +516,7 @@ h3.my-profession {
 .about .about-content .personal-info .info-item p {
     font-weight: 600;
     padding: 10px 0;
-    font-family: 'Arvo',serif;
+    font-family: 'Arvo', serif;
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
@@ -675,7 +668,7 @@ h3.my-profession {
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
-    font-family: 'Arvo',serif;
+    font-family: 'Arvo', serif;
 }
 
 /* Services */
@@ -689,11 +682,10 @@ h3.my-profession {
     max-width: 33.33%;
 }
 
-.service .service-item:hover
-{
+.service .service-item:hover {
     border-radius: 15px;
     padding: 1px;
-    box-shadow:  0 0 20px var(--shadow-color);
+    box-shadow: 0 0 20px var(--shadow-color);
     transition: 0.1s ease;
 }
 
@@ -788,10 +780,14 @@ h3.my-profession {
     border-radius: 2px;
 }
 
-.portfolio .portfolio-item-inner:hover
-{
-    box-shadow: 0 0 30px var(--simg-bg);
+.portfolio .portfolio-item-inner:hover {
+    box-shadow: 0 0 20px var(--simg-bg);
     transition: 0.2s ease;
+}
+
+
+img {
+    object-fit: contain;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img span a {
@@ -902,8 +898,7 @@ h3.my-profession {
     height: 140px;
 }
 
-.contact .contact-form .form-item .form-group .error
-{
+.contact .contact-form .form-item .form-group .error {
     display: block;
     font-weight: 700;
     font-size: 16px;
@@ -918,27 +913,25 @@ h3.my-profession {
     cursor: pointer;
 }
 
-.musicsection 
-{
+.musicsection {
     display: block;
 }
 
-.music .song
-{
+.music .song {
     justify-items: center;
     display: flex;
     flex: 0 0 50%;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
-.music .song h4
-{
+
+.music .song h4 {
     color: var(--bg-black-900);
     font-size: 20px;
     padding: 5px;
-    
+
 }
-.song .song-box
-{
+
+.song .song-box {
     border: 6px solid var(--skin-color);
     width: 280px;
     height: 330px;
@@ -948,21 +941,19 @@ h3.my-profession {
     background: var(--song-bg);
     align-items: center;
     margin: 30px;
-   
+
 }
 
-.song .song-box:hover
-{
-    box-shadow:  0 0 30px var(--simg-bg); 
+.song .song-box:hover {
+    box-shadow: 0 0 30px var(--simg-bg);
     transition: 0.2s ease;
     cursor: pointer;
 }
 
-.song .song-box .songimg
-{
+.song .song-box .songimg {
     width: 200px;
     padding: 10px 10px 10px 10px;
-    height: 210px ;
+    height: 210px;
     margin-left: 10px;
     margin-right: 20px;
     box-shadow: 0 0 20px var(--si-bg);
@@ -972,18 +963,16 @@ h3.my-profession {
 
 audio::-webkit-media-controls-panel {
     background-color: var(--audio-bg);
-  }
+}
 
-.h4Song
-{
+.h4Song {
     color: var(--text-black-900);
     font-size: 22px;
     margin-top: 25px;
     padding-bottom: 15px;
 }
 
-.video 
-{
+.video {
     justify-content: center;
     display: flex;
     flex: 0 0 50%;
@@ -991,10 +980,9 @@ audio::-webkit-media-controls-panel {
     padding-top: 30px;
 }
 
-.video .vid 
-{
-    box-shadow:  0 0 40px var(--text-black-900);
-    border:  4px solid var(--skin-color);
+.video .vid {
+    box-shadow: 0 0 40px var(--text-black-900);
+    border: 4px solid var(--skin-color);
 }
 
 
@@ -1002,53 +990,47 @@ audio::-webkit-media-controls-panel {
     margin-bottom: 50px;
 }
 
-.games .game-platform .game
-{
+.games .game-platform .game {
     margin-bottom: 60px;
 }
-.games .game-platform .game:hover
-{
-    box-shadow:  0 0 35px var(--text-black-900);
+
+.games .game-platform .game:hover {
+    box-shadow: 0 0 35px var(--text-black-900);
     transition: 0.4s ease;
 }
 
 @media (max-width:1199px) {
 
-    .section .container{
+    .section .container {
         padding-top: 70px;
     }
+
     .aside {
         left: -270px;
     }
 
-    .aside.open
-    {
+    .aside.open {
         left: 0;
     }
 
-    .aside .nav-toggler
-    {
+    .aside .nav-toggler {
         display: flex;
         left: 30px;
     }
 
-    .aside .nav-toggler.open
-    {
+    .aside .nav-toggler.open {
         left: 300px;
     }
 
-    .section
-    {
+    .section {
         left: 0;
     }
 
-    .section.open
-    {
+    .section.open {
         left: 270px;
     }
 
-    .musicsection .song-box
-    {
+    .musicsection .song-box {
         margin-right: 20px;
     }
 
@@ -1062,9 +1044,10 @@ audio::-webkit-media-controls-panel {
 
 @media (max-width:991px) {
 
-    .section .container{
+    .section .container {
         padding-top: 70px;
     }
+
     .games .game-platform,
     .contact .contact-info-item,
     .musicsection .song-box,
@@ -1080,15 +1063,30 @@ audio::-webkit-media-controls-panel {
     }
 
     .home .home-img {
+        display: flex;
+        width: 100px;
+        height: 250px;
+    }
+
+    .home-img img {
+        margin: 30px;
+    }
+
+    .home-img::after {
+        display: none;
+    }
+
+    .home-img::before {
         display: none;
     }
 }
 
 @media (max-width:767px) {
 
-    .section .container{
+    .section .container {
         padding-top: 70px;
     }
+
     .games .game-platform,
     .musicsection .song-box,
     .contact .contact-form .col-6,
@@ -1106,9 +1104,10 @@ audio::-webkit-media-controls-panel {
 
 @media (max-width:667px) {
 
-    .section .container{
+    .section .container {
         padding-top: 70px;
     }
+
     .games .game-platform,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
@@ -1123,13 +1122,14 @@ audio::-webkit-media-controls-panel {
         max-width: 100%;
     }
 }
- .showcase {
+
+.showcase {
     width: 100%;
     height: 100%;
     z-index: -1;
     background: var(--bg_color);
-     position: relative; 
-}  
+    position: relative;
+}
 
 
 .showcase video {
@@ -1143,4 +1143,3 @@ audio::-webkit-media-controls-panel {
 
     object-fit: cover;
 }
-
